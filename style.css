@@ -1,0 +1,65 @@
+/* common styles */
+.poppins-font{
+    font-family: "Poppins", sans-serif;
+}
+.display-flex{
+    display: flex;
+}
+.vh-center{
+    justify-content: center;
+    align-items: center;
+}
+
+/*Navbar styles*/
+.navbar-options{
+    width: 463;
+    height: 36px;
+    gap: 34px;
+}
+.option{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.navbar{
+    width: 100%;
+    /* justify-content: space-between; */
+}
+.navbar-title{
+    margin-right: 494px;
+}
+
+/*banner styles*/
+.banner-text{
+    width: 582px;
+    height: 270px;
+}
+.banner-title{
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+.banner-btn{
+    background-color: rgba(224, 44, 109, 1);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 41px;
+    gap: 8px;
+    padding: 10px 24px;
+}
+.pn{
+    margin-right: 8px;
+}
+.img1{
+    z-index: 0;
+}
+.banner-photos{
+    background-image: url('images/Circle\ design.svg');
+    width: 475px;
+    height: 475px;
+}
+.banner{
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/*Media query for small device */
