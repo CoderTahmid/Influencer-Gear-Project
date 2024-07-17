@@ -19,6 +19,7 @@
 .option{
     font-size: 1rem;
     font-weight: 600;
+    color: rgba(58, 58, 58, 1);
 }
 .navbar{
     width: 100%;
@@ -49,17 +50,44 @@
 .pn{
     margin-right: 8px;
 }
-.img1{
-    z-index: 0;
-}
-.banner-photos{
-    background-image: url('images/Circle\ design.svg');
-    width: 475px;
-    height: 475px;
-}
 .banner{
     justify-content: space-around;
     margin-top: 50px;
 }
+.banner-photo{
+    background-image: url('images/Circle\ design.svg');
+    max-height: 475px;
+    max-width: 475px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.img1{
+    max-width: 100%;
+    height: auto;
+}
 
 /*Media query for small device */
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-text{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-title{
+        font-size: 28px;
+        color: rgba(58, 58, 58, 1);
+    }
+    .navbar-options{
+        display: none;
+    }
+}
