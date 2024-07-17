@@ -81,9 +81,7 @@
     margin-right: 165px;
     font-size: small;
 }
-.comp-imgs{
 
-}
 
 /*Media query for small device */
 @media screen and (max-width: 576px) {
@@ -106,5 +104,11 @@
     }
     .navbar-options{
         display: none;
+    }
+    .companies{
+        margin-left: 10px;
+        margin-right: 10px;
+        flex-wrap: wrap;
+        gap: 30px;
     }
 }
