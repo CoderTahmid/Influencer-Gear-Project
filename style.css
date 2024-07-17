@@ -68,6 +68,23 @@
     height: auto;
 }
 
+/*companies styles*/
+.comp-border{
+    width: 500px;
+    height: 2px;
+    background-color: #ccc;
+}
+.companies{
+    margin-top: 30px;
+    justify-content: space-evenly;
+    margin-left: 165px;
+    margin-right: 165px;
+    font-size: small;
+}
+.comp-imgs{
+
+}
+
 /*Media query for small device */
 @media screen and (max-width: 576px) {
     .banner{
